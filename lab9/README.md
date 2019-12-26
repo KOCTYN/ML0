@@ -34,6 +34,8 @@ adaline_upd <- function(xi, yi, w, eta) {
 
 ![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/ADALINE.png)
 
+![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/ADALINE_Q.png)
+
 # Персептрон Розенблатта
 Персептрон Розенблатта — линейный классификатор, в котором используется кусочно-линейная функция потерь:
 <a href="https://www.codecogs.com/eqnedit.php?latex=$L=(-M)_&plus;$=$max(-M,0)$" target="_blank"><img src="https://latex.codecogs.com/gif.latex?$L=(-M)_&plus;$=$max(-M,0)$" title="$L=(-M)_+$=$max(-M,0)$" /></a>
@@ -54,6 +56,8 @@ hebb_upd <- function(xi, yi, w, eta) {
 Пример работы алгоритма:
 
 ![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/hebb.png)
+
+![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/HEBB.png)
 
 # Логистическая регрессия
 Логистическая регрессия - линейный байесовский классификатор, использующий логарифмическую функцию потерь:
@@ -83,6 +87,8 @@ sigmoid <- function(z) {
 Пример работы алгоритма:
 
 ![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/logress.png)
+
+![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/LOGRESS_Q.png)
 
 Пример работы алгоритмов:
 
