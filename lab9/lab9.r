@@ -74,6 +74,12 @@ stgrad <- function(xl, eta = 1, lambda = 1/6, eps = 1e-5, loss, upd, lwd, col, x
   repeat {
     iter <- iter + 1
     if (iter > 1000) {
+      #print(Qres)
+      # print(length(Qres))
+      # X<-seq(0,1,length.out = length(Qres))
+      # print(length(X))
+      # plot(X,Qres,type = "l",xlab = "",ylab="")
+      # break
       break;
     }
     
@@ -108,6 +114,12 @@ stgrad <- function(xl, eta = 1, lambda = 1/6, eps = 1e-5, loss, upd, lwd, col, x
     }
     else
     {
+      #print(Qres)
+      # print(length(Qres))
+      # X<-seq(0,1,length.out = length(Qres))
+      # print(length(X))
+      # plot(X,Qres,type = "l",xlab = "",ylab="")
+      # break
       break
     }
   }
