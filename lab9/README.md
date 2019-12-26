@@ -57,7 +57,7 @@ hebb_upd <- function(xi, yi, w, eta) {
 
 ![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/hebb.png)
 
-![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/HEBB.png)
+![Image alt](https://github.com/KOCTYN/ML0/blob/master/lab9/HEBB_Q.png)
 
 # Логистическая регрессия
 Логистическая регрессия - линейный байесовский классификатор, использующий логарифмическую функцию потерь:
